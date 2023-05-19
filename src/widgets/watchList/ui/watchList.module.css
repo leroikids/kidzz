@@ -1,0 +1,29 @@
+.list_items {
+    background-color: #fdfdfd;
+    display: flex;
+}
+
+.wrapper {
+    padding: 5px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.list_items__title {
+    font-size: 35px;
+    font-weight: 500;
+    color: #18191c;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.list_items__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.noItems__wrapper {
+    display: flex;
+    justify-content: center;
+}
